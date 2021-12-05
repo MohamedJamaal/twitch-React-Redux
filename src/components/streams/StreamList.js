@@ -31,7 +31,7 @@ class StreamList extends React.Component {
           <i className="large middle aligned icon camera" />
           <div className="content">
             {stream.title}
-            <div className="description">{stream.descending}</div>
+            <div className="description">{stream.description}</div>
           </div>
         </div>
       );
